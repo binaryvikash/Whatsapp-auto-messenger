@@ -38,6 +38,18 @@ A Python-based WhatsApp automation bot that allows you to send messages to multi
 
 ## Installation
 
+# 1. Clone the repository and navigate into it
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+
+### 1. Run the bot manually (first time)
+
+Scan the QR code in WhatsApp Web by running:
+
+```bash
+python3 send_message.py
+
 ```bash
 
 # 1. Clone the repository and navigate into it
@@ -98,7 +110,7 @@ Note: Time should be in 24-hour HH:MM format.
 
 ### 1. Run the bot manually (first time)
 
-Scan the QR code in WhatsApp Web:
+Scan the QR code in WhatsApp Web by running:
 
 ```bash
 python3 send_message.py
