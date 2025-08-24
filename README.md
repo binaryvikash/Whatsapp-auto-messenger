@@ -6,68 +6,46 @@ WhatsApp Automation Bot
 
 Automate sending WhatsApp messages to multiple contacts on a schedule using Python and Selenium. Supports CSV-based contact lists and YAML-based message scheduling.
 
-Features
+Features :
 
 Send WhatsApp messages automatically via WhatsApp Web.
-
 Schedule messages with flexible timing using YAML files.
-
 Manage multiple recipients via CSV files.
-
 Supports plain text messages (emojis support may vary depending on ChromeDriver).
-
 Logging of sent messages and errors.
 
-Use Cases
+Use Cases :
 
 Sending reminders or notifications.
-
 Bulk messaging for personal or small business use.
-
 Scheduled greetings, announcements, or alerts.
 
-Requirements
+Requirements :
 
 Python 3.9+
-
 Chrome or Chromium browser
-
 ChromeDriver compatible with your browser version
-
-pip packages:
-
+pip packages
 selenium
-
 undetected-chromedriver
-
 pandas
-
 pyyaml
-
 apscheduler
 
 Installation
 
 Clone the repository:
-
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-
-
 Create a virtual environment (optional but recommended):
-
 python3 -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
-
-Install dependencies:
+Install dependencies :
 
 pip install -r requirements.txt
-
-
 Make sure chromedriver is available and matches your Chrome version.
-
 Configuration
 Recipients CSV
 
@@ -97,13 +75,6 @@ First time: Run the bot manually to scan the WhatsApp QR code:
 python3 send_message.py
 
 
-Next times: Run using Docker Compose (optional):
-
-docker-compose up -d
-
-Logging
-
-All activity is logged in automation.log. Check this file to see sent messages and any errors.
 
 Notes
 
