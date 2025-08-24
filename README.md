@@ -44,7 +44,7 @@ A Python-based WhatsApp automation bot that allows you to send messages to multi
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-## Create a virtual environment (optional but recommended):
+2. Create a virtual environment (optional but recommended):
 
 # Linux / Mac
 python3 -m venv venv
