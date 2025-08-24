@@ -1,0 +1,11 @@
+2025-08-24 17:32:36,514 - INFO - patching driver executable /home/vikash/chromedriver
+2025-08-24 17:32:53,018 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-24 17:32:53,018 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-24 17:32:53,018 - INFO - Scheduler started...
+2025-08-24 17:32:53,019 - INFO - Added job "job" to job store "default"
+2025-08-24 17:32:53,019 - INFO - Added job "job" to job store "default"
+2025-08-24 17:32:53,019 - INFO - Scheduler started
+2025-08-24 17:34:00,001 - INFO - Running job "job (trigger: cron[hour='17', minute='34'], next run at: 2025-08-24 17:34:00 IST)" (scheduled at 2025-08-24 17:34:00+05:30)
+2025-08-24 17:34:06,519 - INFO - Message sent to 918123762045
+2025-08-24 17:34:14,662 - INFO - Message sent to 917306016745
+2025-08-24 17:34:16,665 - INFO - Job "job (trigger: cron[hour='17', minute='34'], next run at: 2025-08-25 17:34:00 IST)" executed successfully
