@@ -59,3 +59,15 @@ pip install -r requirements.txt
 # Make sure ChromeDriver is available and matches your Chrome/Chromium version.
 # Place it in a path accessible by the bot, or update `send_message.py` with the correct path.
 
+
+## Configuration
+
+### Recipients CSV
+
+Create a CSV file at `config/recipients.csv` with the following format:
+
+```csv
+number,name
+918123456789,John
+917987654321,Alice
+
