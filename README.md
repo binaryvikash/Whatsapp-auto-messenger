@@ -38,16 +38,13 @@ A Python-based WhatsApp automation bot that allows you to send messages to multi
 
 ## Installation
 
-1. Clone the repository:
-
 ```bash
+# 1. Clone the repository and navigate into it
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-## Install
-
-```bash
-Linux / Mac
+# 2. Create a virtual environment (optional but recommended) and activate it
+# Linux / Mac
 python3 -m venv venv
 source venv/bin/activate
 
@@ -55,5 +52,10 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 
-
+# 3. Install Python dependencies
 pip install -r requirements.txt
+
+# 4. Set up ChromeDriver
+# Make sure ChromeDriver is available and matches your Chrome/Chromium version.
+# Place it in a path accessible by the bot, or update `send_message.py` with the correct path.
+
