@@ -42,8 +42,9 @@ A Python-based WhatsApp automation bot that allows you to send messages to multi
 # 1. Clone the repository and navigate into it
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-
+```bash
 ---
+## Installation
 ## 2. Create a virtual environment (optional but recommended) and activate it
 # Linux / Mac
 python3 -m venv venv
