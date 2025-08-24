@@ -43,7 +43,8 @@ A Python-based WhatsApp automation bot that allows you to send messages to multi
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-# 2. Create a virtual environment (optional but recommended) and activate it
+---
+## 2. Create a virtual environment (optional but recommended) and activate it
 # Linux / Mac
 python3 -m venv venv
 source venv/bin/activate
@@ -85,7 +86,6 @@ messages:
 
 Note: Time should be in 24-hour HH:MM format.
 
-
 ## Usage
 
 ### 1. Run the bot manually (first time)
@@ -94,5 +94,6 @@ Scan the QR code in WhatsApp Web:
 
 ```bash
 python3 send_message.py
+
 
 
