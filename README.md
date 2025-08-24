@@ -44,10 +44,10 @@ A Python-based WhatsApp automation bot that allows you to send messages to multi
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-2. Create a virtual environment (optional but recommended):
+## Install
 
 ```bash
-# Linux / Mac
+Linux / Mac
 python3 -m venv venv
 source venv/bin/activate
 
