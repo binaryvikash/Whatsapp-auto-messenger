@@ -71,3 +71,16 @@ number,name
 918123456789,John
 917987654321,Alice
 
+
+Schedule YAML
+
+Create a YAML file at config/schedule.yml:
+
+messages:
+  - text: "Hello! This is a scheduled message."
+    time: "10:00"
+  - text: "Don't forget the meeting at 3 PM."
+    time: "14:30"
+
+
+Note: Time should be in 24-hour HH:MM format.
