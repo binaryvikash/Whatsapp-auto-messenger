@@ -84,3 +84,15 @@ messages:
 
 
 Note: Time should be in 24-hour HH:MM format.
+
+
+## Usage
+
+### 1. Run the bot manually (first time)
+
+Scan the QR code in WhatsApp Web:
+
+```bash
+python3 send_message.py
+
+
